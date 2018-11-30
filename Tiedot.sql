@@ -16,8 +16,8 @@ Beta: Please email problems, questions, or suggestions to info@erdplus.com.
 CREATE TABLE Kayttajat
 (
   ID INT NOT NULL,
-  Kayttajanimi INT NOT NULL,
-  Salasana INT NOT NULL,
+  Kayttajanimi CHAR(100) NOT NULL,
+  Salasana CHAR(100) NOT NULL,
   profiilikuva INT NOT NULL,
   PRIMARY KEY (ID),
   FOREIGN KEY (profiilikuva) REFERENCES Kuvat(kuvaID),
@@ -32,7 +32,8 @@ CREATE TABLE Kuvat
   Nayttokerrat INT NOT NULL,
   Kayttaja INT NOT NULL,
   PRIMARY KEY (kuvaID),
-  FOREIGN KEY (Kayttaja) REFERENCES Kayttajat(ID)
+  FOREIGN KEY (Kayttaja) REFERENCES Kayttajat(ID),
+ 
 );
 
 CREATE TABLE Kommentit
@@ -51,6 +52,8 @@ CREATE TABLE Tykkaykset
   kuvaID INT NOT NULL,
   Kayttaja INT NOT NULL,
   FOREIGN KEY (kuvaID) REFERENCES Kuvat(kuvaID),
-  FOREIGN KEY (Kayttaja) REFERENCES Kayttajat(ID)
+  FOREIGN KEY (Kayttaja) REFERENCES Kayttajat(ID),
+  PRIMARY KEY (kuvaID,Kayttaja)
+ 
 );
 
