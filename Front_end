@@ -1,0 +1,649 @@
+//Html
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <LINK href="home.css" rel="stylesheet">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+
+</head>
+<body>
+<body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
+
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+        <li class="hidden active">
+        </li>
+        <li class="">
+            <a class="page-scroll" href="../home/home.html">Home</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="../search/search.html">Search</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="../contact_us/contact.html">Contact</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="../profile/profile.html">Profile</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="../Setting/Setting.html">Setting</a>
+        </li>
+        <li class="">
+            <a class="page-scroll" href="../logout.html">logout</a>
+        </li>
+    </ul>
+</div>
+
+
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Welcome</div>
+            <div class="intro-heading">IRKKEN</div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+<!-- Services Section -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Matti meikäläinen</h2>
+                <img src="guillermo-sanchez-529739-unsplash-RBMhcoF-uzZvqAByDKnwQg.jpg" class="img-responsive" alt="">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="glyphicon glyphicon-tree-conifer"></i>
+                    </span>
+                <h4 class="service-heading">Jotakin omaa </h4>
+                <br class="text-muted">LgfhgfhgfhljhgjhgjfghjghYou can use PNG, JPEG or GIF image file based on your comfort but make sure you specify correct image file name<br> in src attribute. Image name is always case sensitive.
+
+                The alt attribute is a mandatory attribute which specifies an alternate text for an image, if the image cannot be displayed.jhgjhgjhgjh</br></p>
+            </div>
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="glyphicon glyphicon-heart"></i>
+                    </span>
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<div class="container">
+    <nav class="row">
+        <div id="categories">
+            <h2 class="section-heading">Kuva galleria</h2>
+        </div>
+        
+
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+
+                <h3 class="section-subheading text-muted">Lorem You can use PNG, JPEG or GIF image file based on your comfort but make sure you specify correct image file name in src attribute. Image name is always case sensitive.
+
+                    .</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="Nappi">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502" class="img-responsive" alt="">
+                    <h3>Kuva otettu Islannin korkeimman vuoren laelle ja siihen on yllättäen ilmestynyt halkaisijaltaan noin kilometrinen painauma.
+
+
+                    </h3>
+                </a>
+
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+
+                    <img src="https://unsplash.imgix.net/44/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=f0a1db79752dbb04ec6d2aab7d17c7b0" class="img-responsive" alt="">
+               <h3>Keskellä Islantia on vuoristoja ja jäätikköjä, kun taas rannikko on tasaisempaa ja sen varrella sijaitsee lukuisia vuonoja.
+               </h3>
+                </a>
+
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="Nappi">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://unsplash.imgix.net/46/Ov6ZY1zLTWmhPC0wFysP_IMG_2896_edt.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=6518e4df89659818f6c0392175a9c5e6" class="img-responsive" alt="">
+                </a>
+
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="Nappi">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://unsplash.imgix.net/44/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=f0a1db79752dbb04ec6d2aab7d17c7b0" class="img-responsive" alt="">
+                </a>
+
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <div class="Nappi">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://unsplash.imgix.net/46/Ov6ZY1zLTWmhPC0wFysP_IMG_2896_edt.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=6518e4df89659818f6c0392175a9c5e6" class="img-responsive" alt="">
+                </a>
+
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <div class="Nappi">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502" class="img-responsive" alt="">
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<span style="height: 20px; width: 40px; min-height: 20px; min-width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII=);"></span></body>
+</body>
+<script src="main.js"></script>
+<script src="modernizr-2.8.3.min.js"></script>
+<script src="home.js"></script>
+</html>
+
+//CSS
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+textarea {
+    resize: vertical;
+}
+
+
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+.article img {
+    object-fit: cover;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 20%;
+    transition: width 1s, height 1s;
+}
+
+#map:hover {
+    height: 300px;
+    width: 60%;
+}
+
+.modal {
+    position: fixed;
+    top: 1rem;
+    background-color: #FFF;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: #999 0px 0px 18px;
+    border-radius: 4px;
+}
+
+.modal button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.modal h4 {
+    padding: 1rem;
+}
+
+.modal figure {
+    position: relative;
+    padding: 0 0 2rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    cursor: pointer;
+    width: calc(100% / 3 - 6rem);
+    padding: 1rem;
+    margin: 0 2rem;
+}
+
+button {
+    background-color: #b3d4fc;
+    border: 0;
+    line-height: 2em;
+    padding: 0 1em;
+    border-radius: 4px;
+    margin: 1rem;
+}
+
+
+
+.hidden {
+    display: none !important;
+}
+
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+
+.invisible {
+    visibility: hidden;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+@media only screen and (max-width: 35em) {
+    article {
+        width: 100%;
+    }
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+
+}
+
+
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important;
+
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+//Kirjautuminen
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <LINK href="kirjaudu.css" rel="stylesheet">
+</head>
+<body>
+<div class="alku">
+    <h1> Welcome to Irkken </h1>
+</div>
+<div class="fadeIn first">
+    <img src="images.jpeg" id="icon" alt="User Icon" />
+</div>
+
+<div class="container">
+    <div class="sign-up active" id="sign-up-button">
+        <p class="sign-up-header">Sign Up</p>
+    </div>
+
+    <div class="log-in" id="log-in-button">
+        <p class="log-in-header">Log In</p>
+    </div>
+    <form id="sign-up-form">
+        <div class="header">
+            <h1>Sign Up for Free</h1>
+        </div>
+        <input class="first-name" type="text" placeholder="Username*" required>
+        <input type="password" placeholder="password*" required>
+        <button id="sign-up-submit">Get Started</button>
+    </form>
+    <form id="log-in-form">
+        <div class="header">
+            <h1>Welcome back!</h1>
+        </div>
+        <input class="email" type="email" placeholder="käyttäjä*" required>
+        <input type="password" placeholder="password*" required>
+        <button id="log-in-submit">Log in</button>
+    </form>
+
+</div>
+<div style="height:980px"></div>
+        <!-- Icon -->
+
+
+
+<script src="kirjaudu.js"></script>
+</body>
+</html>
+
+//CSS
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(royalblue, white);
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 30px;
+}
+.container {
+    margin: 10px auto;
+    width: 400px;
+    max-width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: solid 1px #d2d2d2;
+    box-shadow: 5px 5px 10px #d2d2d2;
+}
+.container:hover {
+    box-shadow: 5px 5px 5px #d2d2d2;
+}
+.sign-up {
+    width: 50%;
+    height: 70px;
+    border: solid 2px #9e2021;
+    text-align: center;
+}
+.sign-up:hover, .log-in:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-up-header {
+    margin-top: 23px;
+}
+.log-in {
+    width: 50%;
+    height: 70px;
+    border: solid 2px #9e2021;
+    margin-top: -70px;
+    margin-left: 178px;
+}
+.log-in-header {
+    margin-top: 23px;
+    text-align: center;
+}
+.active {
+    background-color: #9e2021;
+    color: #fff;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: solid 1px #9e2021;
+    margin-top: 10px;
+    font-family: inherit;
+}
+.first-name, .last-name {
+    width: 49.4%;
+    margin-top: -5px;
+}
+.last-name {
+    margin-right: 0;
+}
+::placeholder {
+    font-style: italic;
+}
+.email {
+    margin-top: -5px;
+}
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    border: solid 2px #9e2021;
+    background-color: #9e2021;
+    color: #fff;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+button:hover {
+    box-shadow: 5px 5px 10px #d2d2d2;
+    cursor: pointer;
+}
+#sign-up-form {
+    display: block;
+}
+#log-in-form {
+    display: none;
+}
+.password {
+    float: right;
+    font-style: italic;
+    margin-top: 9px
+}
+.password:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+:focus {
+    outline-color: orange;
+}
+
+.alku h1 {
+    text-shadow: 3px 2px blue;
+    font-size: 50px;
+}
+
+//Script
+'use strict';
+ document.querySelector('#log-in-button').addEventListener('click', function() {
+    document.querySelector('#log-in-button').classList.add('active');
+    document.querySelector('#sign-up-button').classList.remove('active');
+    document.querySelector('#sign-up-form').style.display= 'none';
+    document.querySelector('#log-in-form').style.display= 'none';
+  });
+
+document.querySelector('#sign-up-button').addEventListener('click', function() {
+  document.querySelector('#log-in-button').classList.remove('active');
+  document.querySelector('#sign-up-button').classList.add('active');
+  document.querySelector('#sign-up-form').style.display= 'none';
+  document.querySelector('#log-in-form').style.display= 'none';
+  });
