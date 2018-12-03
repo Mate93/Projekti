@@ -463,7 +463,6 @@ button {
 
 
 //Kirjautuminen
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -473,10 +472,11 @@ button {
 </head>
 <body>
 <div class="alku">
-    <h1> Welcome to Irkken </h1>
+    <img src="3820736_orig.png" id="icosn" alt="User Icon" />
 </div>
 <div class="fadeIn first">
-    <img src="images.jpeg" id="icon" alt="User Icon" />
+    <img src="irkken%20final%20no%20background.png" id="icon" alt="User Icon" />
+
 </div>
 
 <div class="container">
@@ -515,6 +515,7 @@ button {
 </html>
 
 //CSS
+
 * {
     margin: 0;
     padding: 0;
@@ -627,10 +628,18 @@ button:hover {
     outline-color: orange;
 }
 
-.alku h1 {
+
+img{
     text-shadow: 3px 2px blue;
     font-size: 50px;
+    margin-left: 1150px;
 }
+
+.alku img{
+    margin-left: 50px;
+
+}
+
 
 //Script
 'use strict';
