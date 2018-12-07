@@ -7,6 +7,10 @@
 </head>
 <body>
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="fadeIn first" id="logo">
+        <img src="irkken%20final%20no%20background.png" id="icon" alt="User Icon" />
+
+    </div>
     <ul class="nav navbar-nav navbar-right">
         <li class="">
             <a class="page-scroll" href="../home/home.html">Home</a>
@@ -15,16 +19,10 @@
             <a class="page-scroll" href="../contact_us/contact.html">Contact</a>
         </li>
         <li class="">
-            <a class="page-scroll" href="../profile/profile.html">Profile</a>
-        </li>
-        <li class="">
             <a class="page-scroll" href="../search/search.html">Search</a>
         </li>
         <li class="">
             <a class="page-scroll" href="../Setting/Setting.html">Setting</a>
-        </li>
-        <li class="">
-            <a class="page-scroll" href="../logout.html">logout</a>
         </li>
 
     </ul>
@@ -32,7 +30,7 @@
 </div>
 
 
-<div class="container">
+<div class="container" id="joku">
     <div class="row header">
         <h1>CONTACT US &nbsp;</h1>
         <h3>How can we help?</h3>
@@ -59,7 +57,187 @@
         </form>
 
     </div>
-    
+
  <div style="height:980px"></div>
  </body>
  </html>
+ 
+ //CSS
+ 
+
+
+body {
+    background-color: lightblue;
+    font-size: 100%;
+@include lato-reg;
+}
+div, textarea, input {
+@include box-sizing(border-box);
+}
+.container {
+    max-width: 510px;
+    min-width: 324px;
+    margin: 50px auto 0px;
+
+}
+.row {
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 0 2.5em;
+}
+.pull-right {
+    float: right;
+}
+h1 {
+@include lato-book;
+    display: inline-block;
+    font-weight: 100;
+    margin: 0 0 0.1em 0;
+    padding: 0 0 0.4em 0;
+}
+h3 {
+@include lato-reg;
+    margin: 1em 0 0.4em 0;
+}
+.btn {
+    display: inline-block;
+    padding: 0.74em 1.5em;
+    margin: 1.5em 0 0;
+    color: blue;
+    border-width: 0 0 0 0;
+    border-bottom: 5px solid;
+    text-transform: uppercase;
+}
+
+form {
+    max-width: 100%;
+    display: block;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+:last-child {
+     margin: 0;
+ }
+p {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.right {
+     float: right;
+ }
+
+
+.req {
+    color: pink;
+}
+
+
+label {
+    display: block;
+    margin: 0 0 0.5em 0;
+    color: black;
+}
+input {
+    margin: 0 0 0.5em 0;
+    border: 1px solid grey;
+    padding: 6px 10px;
+    color: darkgrey;
+}
+textarea {
+    border: 1px solid grey;
+    padding: 6px 10px;
+    width: 100%;
+    color: darkgrey;
+}
+small {
+    color: blue;
+    margin: 0 0 0 0.5em;
+}
+
+
+
+
+@media only screen and (max-width:480px) {
+    .pull-right {
+        float: none;
+    }
+    input {
+        width: 100%;
+    }
+    label {
+        width: 100%;
+        display: inline-block;
+        float: left;
+        clear: both;
+    }
+    li, p {
+        width: 100%;
+    }
+    input.btn {
+        margin: 1.5em 0 0.5em;
+    }
+
+    li small {
+        display: none;
+        margin: 50px;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    background-color: #707dff;
+    color: black;
+
+}
+.nav{
+    list-style-type:none;
+    padding-left: 0px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 1px;
+
+
+}
+.nav li {
+    display: block;
+    padding-left: auto;
+    background-color: white;
+    margin: 10px;
+
+    color: black;
+    height: 60px;
+    width: 96px;
+    text-align: center;
+    position: relative;
+
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo{
+    float: left;
+
+}
+#joku{
+    float: left;
+    padding: 60px;
+    margin: 80px;
+
+}
