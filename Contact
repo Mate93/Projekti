@@ -1,34 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <LINK href="contact.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="modules/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <div class="fadeIn first" id="logo">
-        <img src="irkken%20final%20no%20background.png" id="icon" alt="User Icon" />
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
 
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-        <li class="">
-            <a class="page-scroll" href="../home/home.html">Home</a>
-        </li>
-        <li class="">
-            <a class="page-scroll" href="../contact_us/contact.html">Contact</a>
-        </li>
-        <li class="">
-            <a class="page-scroll" href="../search/search.html">Search</a>
-        </li>
-        <li class="">
-            <a class="page-scroll" href="../Setting/Setting.html">Setting</a>
-        </li>
+<!-- Add your site or application content here -->
+<div class="container">
+    <nav class="row">
+        <img id="irkken" src="img/irkken final no background.png" height="200" width="200"/>
 
-    </ul>
+            <h1 id="loggaus"><a href="./logout" class="button">Logout</a></h1>
 
+        <div id="categories">
+
+
+
+        </div>
+
+        <div id="formi">
+            <button id="reset-button">Reset</button>
+            <form action="/upload" method="post" enctype="multipart/form-data" id="mediaform">
+                <input type="text" name="category" placeholder="Category">
+                <br>
+                <input type="text" name="title" placeholder="Title">
+                <br>
+                <input type="text" name="details" placeholder="Details">
+                <br>
+                <label>Kuva
+                    <input type="file" name="mediafile" accept="image/*">
+                </label>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+
+            <img id="kuva">
+        </div>
+    />
+    <main>
+        <div id="content">
+            <ul>
+
+            </ul>
+        </div>
+
+    </main>
 </div>
-
 
 <div class="container" id="joku">
     <div class="row header">
@@ -43,25 +75,56 @@
             <p class="left">
                 <label for="first_name">first name</label>
 
-                <input type="text" name="first_name" placeholder="John" />
-                <label for="comments">comments</label>
+
+
             </p>
+            <input type="text" name="first_name" placeholder="John" />
 
             <li>
+                <label for="comments">comments</label>
 
-                <textarea cols="46" rows="3" name="comments" placeholder="Message"></textarea>
 
             </li>
-
+            <textarea cols="46" rows="3" name="comments" placeholder="Message"></textarea>
             <button type="submit">Send</button>
         </form>
 
     </div>
 
- <div style="height:980px"></div>
- </body>
- </html>
- 
+
+<div class="modal hidden">
+    <button>&times;</button>
+    <h4>Map</h4>
+
+    <figure>
+
+        <img src="" alt="">
+        <div class="kommentit">
+            <ul id="comments"></ul>
+
+
+        </div>
+
+        <div id="map" class="small-map"></div>
+        <br>
+        <form id="kommenttiformi" action="comment" method="post">
+            <input type="text" name="kommentti" placeholder="Kommentoi">
+            <button type="submit">Post</button>
+        </form>
+    </figure>
+</div><!-- /.modal -->
+
+
+
+
+<script src="modules/moment/moment.js"></script>
+<script src="modules/leaflet/dist/leaflet.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
+
  //CSS
  
 
